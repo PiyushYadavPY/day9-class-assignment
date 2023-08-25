@@ -1,0 +1,27 @@
+body{
+  background: #d5b5b5;
+  margin: 0;
+  padding: 0;
+}
+#targetDiv {
+    border: 2px solid #2a1818;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+ 
+  #controls {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  #controls select{
+   width: 150px;
+   height: 20px;
+   border-radius: 10px;
+   font-size:small;
+  }
